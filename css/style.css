@@ -225,6 +225,8 @@ textarea, textarea:active, textarea:focus { outline: none; }
 
 .second_items8 { background: url("../img/works/work8.png") no-repeat center center; background-size: cover; }
 
+.second_items9 { background: url("../img/works/work9.png") no-repeat center center; background-size: cover; }
+
 .ourportfolio__filters__list_item_items:hover .hidden_more_information { opacity: 1; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
 
 .hidden_more_information { width: 100%; height: 100%; position: absolute; background: #222222; top: 0; left: 0; opacity: 0; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
