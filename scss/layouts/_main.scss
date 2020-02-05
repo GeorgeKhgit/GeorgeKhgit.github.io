@@ -16,7 +16,7 @@
 }
 .section_aboutus__img img {
   display: block;
-  width:704px;
+  width: 704px;
   max-width: 100%;
   height: auto;
 }
@@ -69,7 +69,7 @@
   font-size: 16px;
   font-style: italic;
   line-height: 25px;
-  margin-top:5px;
+  margin-top: 5px;
 }
 .section_aboutus__content__list li span {
   font-weight: 400;
@@ -107,7 +107,8 @@
   height: auto;
   max-width: 100%;
   margin: 0 auto;
-  background: #070707;
+  background: url("../img/secondtheme.jpg") no-repeat center center;
+  background-size: cover;
 }
 .section_ourteam_h4 {
   color: #ffffff;
@@ -163,7 +164,7 @@
   max-width: 100%;
   height: 100px;
   margin: 0 auto;
-  width:100px;
+  width: 100px;
 }
 .slick_one_slider_title {
   text-align: center;
@@ -258,7 +259,7 @@
   margin: 0 auto;
   max-width: 100%;
   height: 100px;
-  width:220px;
+  width: 220px;
 }
 .heading__article {
   text-align: center;
@@ -293,11 +294,10 @@
   max-width: 100%;
   height: auto;
 }
-.slick_one__slider_secondsl{
-  font-size:35px;
-  color:#b2b2b2;
+.slick_one__slider_secondsl {
+  font-size: 35px;
+  color: #b2b2b2;
   font-family: $OpenSansR;
-  
 }
 .ourportfolio {
   width: 1440px;
@@ -362,40 +362,40 @@
   cursor: pointer;
   position: relative;
 }
-.first_items1{
-  background:url('../img/works/work1.png') no-repeat center center;
+.first_items1 {
+  background: url("../img/works/work1.png") no-repeat center center;
   background-size: cover;
 }
-.second_items2{
-  background:url('../img/works/work4.png') no-repeat center center;
+.second_items2 {
+  background: url("../img/works/work4.png") no-repeat center center;
   background-size: cover;
 }
-.second_items3{
-  background:url('../img/works/work3.png') no-repeat center center;
+.second_items3 {
+  background: url("../img/works/work3.png") no-repeat center center;
   background-size: cover;
 }
-.second_items4{
-  background:url('../img/works/work5.png') no-repeat center center;
+.second_items4 {
+  background: url("../img/works/work5.png") no-repeat center center;
   background-size: cover;
 }
-.second_items5{
-  background:url('../img/works/work6.png') no-repeat center center;
+.second_items5 {
+  background: url("../img/works/work6.png") no-repeat center center;
   background-size: cover;
 }
-.second_items6{
-  background:url('../img/works/work7.png') no-repeat center center;
+.second_items6 {
+  background: url("../img/works/work7.png") no-repeat center center;
   background-size: cover;
 }
-.second_items7{
-  background:url('../img/works/work2.png') no-repeat center center;
+.second_items7 {
+  background: url("../img/works/work2.png") no-repeat center center;
   background-size: cover;
 }
-.second_items8{
-  background:url('../img/works/work8.png') no-repeat center center;
+.second_items8 {
+  background: url("../img/works/work8.png") no-repeat center center;
   background-size: cover;
 }
-.second_items9{
-  background:url('../img/works/work9.png') no-repeat center center;
+.second_items9 {
+  background: url("../img/works/work9.png") no-repeat center center;
   background-size: cover;
 }
 // .ourportfolio__filters__list_item_items img {
@@ -549,20 +549,18 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-top:32px;
-  margin-left:auto;
+  margin-top: 32px;
+  margin-left: auto;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.main_formart button:hover{
-  transition: all .5s ease;
-  border:1px solid #fcac45;
-  background:none;
-  color:#fcac45;
+.main_formart button:hover {
+  transition: all 0.5s ease;
+  border: 1px solid #fcac45;
+  background: none;
+  color: #fcac45;
 }
-
-
 
 // Media requerst
 @include lowDesktop() {
@@ -617,8 +615,8 @@
   }
 }
 @include IpadScreen {
-  .main_formart button{
-    margin:32px auto 0px auto;
+  .main_formart button {
+    margin: 32px auto 0px auto;
   }
   .section_aboutus__content__p {
     font-size: 26px;
@@ -640,8 +638,8 @@
 }
 
 @include Phone_screen {
-  .main_formart button{
-    font-size:14px;
+  .main_formart button {
+    font-size: 14px;
   }
   .main_formart {
     margin: 40px auto 0px auto;
